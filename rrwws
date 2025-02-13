@@ -44,24 +44,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
-		"Dark",
-		"Darker", 
-		"AMOLED",
-		"Light",
-		"Balloon",
-		"SoftCream",
-		"Aqua", 
-		"Amethyst",
-		"Rose",
-		"Midnight",
-		"Forest",
-		"Sunset", 
-		"Ocean",
-		"Emerald",
-		"Sapphire",
-		"Cloud",
-		"Grape",
-		"Bloody"
+		"NSHUB"
 	},
 	Dark = {
 		Name = "Dark",
@@ -125,8 +108,8 @@ local Themes = {
 		DialogInput = Color3.fromRGB(45, 45, 45),
 		DialogInputLine = Color3.fromRGB(120, 120, 120),
 	},
-	AMOLED = {
-	    Name = "AMOLED",
+	NSHUB = {
+	    Name = "NSHUB",
 	    Accent = Color3.fromRGB(255, 255, 255),
 	    AcrylicMain = Color3.fromRGB(0, 0, 0),
 	    AcrylicBorder = Color3.fromRGB(255, 255, 255),
