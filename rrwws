@@ -126,7 +126,7 @@ local Themes = {
 		DialogInputLine = Color3.fromRGB(120, 120, 120),
 	},
 	AMOLED = {
-	  Name = "AMOLED",
+	    Name = "AMOLED",
 	    Accent = Color3.fromRGB(255, 255, 255),
 	    AcrylicMain = Color3.fromRGB(0, 0, 0),
 	    AcrylicBorder = Color3.fromRGB(255, 255, 255),
@@ -140,7 +140,7 @@ local Themes = {
 	    ElementTransparency = 0.95,
 	    ToggleSlider = Color3.fromRGB(40, 40, 40),
 	    ToggleToggled = Color3.fromRGB(255, 255, 255),
-	    ToggleBorder = Color3.fromRGB(255, 255, 255),
+	    ToggleBorder = Color3.fromRGB(255, 255, 255), -- Added for toggle
 	    SliderRail = Color3.fromRGB(40, 40, 40),
 	    DropdownFrame = Color3.fromRGB(255, 255, 255),
 	    DropdownHolder = Color3.fromRGB(0, 0, 0),
