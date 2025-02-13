@@ -5,6 +5,38 @@ dsc.gg/hydrahub  |   29.01 - well well well removed last update, added "Bloody" 
 '                |   01.01 - fixed this file and mobile support, added a "GUI dragging cooldown".
 ]]--             |
 
+ocal Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local TextService = game:GetService("TextService")
+local Camera = game:GetService("Workspace").CurrentCamera
+local Mouse = LocalPlayer:GetMouse()
+local httpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+
+local Mobile
+if RunService:IsStudio() then
+	Mobile = false
+else
+	Mobile = table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) ~= nil
+end
+
+if Show_Button then
+	Mobile = true
+end
+
+local Asset = "rbxassetid://"
+if Game.GameId == 5750914919 then
+	Asset = ""
+end
+
+local RenderStepped = RunService.RenderStepped
+
+local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
+
 local Themes = {
 	Names = {
 		"NSHUB"
