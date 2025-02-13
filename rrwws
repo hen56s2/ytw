@@ -748,7 +748,7 @@ local Library = {
 	DialogOpen = false,
 	UseAcrylic = false,
 	Acrylic = false,
-	Transparency = false,
+	Transparency = true,
 	MinimizeKeybind = nil,
 	MinimizeKey = Enum.KeyCode.LeftControl,
 }
