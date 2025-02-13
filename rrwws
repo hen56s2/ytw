@@ -47,7 +47,6 @@ local Themes = {
 		"Dark",
 		"Darker", 
 		"AMOLED",
-		"Lunar",
 		"Light",
 		"Balloon",
 		"SoftCream",
@@ -139,9 +138,9 @@ local Themes = {
 	    ElementBorder = Color3.fromRGB(255, 255, 255),
 	    InElementBorder = Color3.fromRGB(255, 255, 255),
 	    ElementTransparency = 0.95,
-	    ToggleSlider = Color3.fromRGB(255, 255, 255),
+	    ToggleSlider = Color3.fromRGB(40, 40, 40),
 	    ToggleToggled = Color3.fromRGB(255, 255, 255),
-	    ToggleBorder = Color3.fromRGB(255, 255, 255), -- Added for toggle
+	    ToggleBorder = Color3.fromRGB(255, 255, 255),
 	    SliderRail = Color3.fromRGB(40, 40, 40),
 	    DropdownFrame = Color3.fromRGB(255, 255, 255),
 	    DropdownHolder = Color3.fromRGB(0, 0, 0),
@@ -164,44 +163,6 @@ local Themes = {
 	    SubText = Color3.fromRGB(255, 255, 255),
 	    Hover = Color3.fromRGB(255, 255, 255),
 	    HoverChange = 0.04
-	},
-	Lunar = {
-	    Name = "Lunar",
-	    Accent = Color3.fromRGB(220, 225, 255),  -- Soft moonlight white
-	    AcrylicMain = Color3.fromRGB(15, 20, 35),  -- Deep night blue
-	    AcrylicBorder = Color3.fromRGB(30, 35, 50),  -- Lighter night blue
-	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(15, 20, 35), Color3.fromRGB(20, 25, 45)),
-	    AcrylicNoise = 0.9,
-	    TitleBarLine = Color3.fromRGB(40, 45, 65),
-	    Tab = Color3.fromRGB(45, 50, 70),
-	    Element = Color3.fromRGB(25, 30, 50),
-	    ElementBorder = Color3.fromRGB(35, 40, 60),
-	    InElementBorder = Color3.fromRGB(50, 55, 75),
-	    ElementTransparency = 0.92,
-	    ToggleSlider = Color3.fromRGB(45, 50, 70),
-	    ToggleToggled = Color3.fromRGB(180, 195, 255),  -- Soft moonlight blue
-	    SliderRail = Color3.fromRGB(45, 50, 70),
-	    DropdownFrame = Color3.fromRGB(30, 35, 55),
-	    DropdownHolder = Color3.fromRGB(20, 25, 45),
-	    DropdownBorder = Color3.fromRGB(35, 40, 60),
-	    DropdownOption = Color3.fromRGB(45, 50, 70),
-	    Keybind = Color3.fromRGB(45, 50, 70),
-	    Input = Color3.fromRGB(45, 50, 70),
-	    InputFocused = Color3.fromRGB(20, 25, 45),
-	    InputIndicator = Color3.fromRGB(60, 65, 85),
-	    InputIndicatorFocus = Color3.fromRGB(180, 195, 255),  -- Soft moonlight blue
-	    Dialog = Color3.fromRGB(20, 25, 45),
-	    DialogHolder = Color3.fromRGB(15, 20, 35),
-	    DialogHolderLine = Color3.fromRGB(35, 40, 60),
-	    DialogButton = Color3.fromRGB(25, 30, 50),
-	    DialogButtonBorder = Color3.fromRGB(40, 45, 65),
-	    DialogBorder = Color3.fromRGB(37, 42, 62),
-	    DialogInput = Color3.fromRGB(25, 30, 50),
-	    DialogInputLine = Color3.fromRGB(60, 65, 85),
-	    Text = Color3.fromRGB(220, 225, 255),  -- Soft moonlight white
-	    SubText = Color3.fromRGB(160, 170, 200),  -- Muted moonlight
-	    Hover = Color3.fromRGB(45, 50, 70),
-	    HoverChange = 0.05
 	},
 	Light = {
 		Name = "Light",
