@@ -133,6 +133,44 @@ local HawkLib = {
 			IconShadow = Color3.fromRGB(0, 0, 0),
 			NotifyButtons = Color3.fromRGB(163, 162, 165)
 		},
+
+			    Lunar = {
+			        Main = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        Shadow = Color3.fromRGB(0, 0, 0), -- Black
+			        TitleBar = Color3.fromRGB(132, 57, 197), -- Lunar Purple
+			        TabBefore = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        TabAfter = Color3.fromRGB(41, 41, 41), -- Slightly Lighter Charcoal
+			        TitleTextColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        TabTextColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        TitleLineColor = Color3.fromRGB(44, 44, 44), -- Dark Gray
+			        PageTitleColor = Color3.fromRGB(145, 163, 176), -- Moonlight Blue
+			        Selection = Color3.fromRGB(132, 57, 197), -- Lunar Purple
+			        CloseMinimize = Color3.fromRGB(74, 74, 74), -- Gray
+			        ItemColors = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        ItemTitleColors = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        ItemTextColors = Color3.fromRGB(145, 163, 176), -- Moonlight Blue
+			        ItemTextBoxKeyBindColors = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        ItemTextBoxKeyBindStrokeColors = Color3.fromRGB(60, 60, 60), -- Dark Gray
+			        ItemTextBoxTextColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        ItemKeyBindTextColor = Color3.fromRGB(199, 199, 199), -- Silver
+			        ToggleTickColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        ButtonClickIconColor = Color3.fromRGB(182, 182, 182), -- Gray
+			        ButtonHover = Color3.fromRGB(50, 50, 50), -- Medium Gray
+			        SliderButtonFrameColor = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        InSliderFrame = ColorSequence.new{
+			            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(132, 57, 197)), -- Lunar Purple
+			            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 62, 93)) -- Deep Space Blue
+			        },
+			        NumColor = Color3.fromRGB(145, 163, 176), -- Moonlight Blue
+			        DropdownColorPickerImageArrowColors = Color3.fromRGB(199, 199, 199), -- Silver
+			        NotificationNotifyColor = Color3.fromRGB(43, 41, 41), -- Deep Charcoal
+			        NotificationNotifyTitleColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        NotificationNotifyTextColor = Color3.fromRGB(145, 163, 176), -- Moonlight Blue
+			        IconColor = Color3.fromRGB(227, 227, 227), -- Light Silver
+			        IconShadow = Color3.fromRGB(0, 0, 0), -- Black
+			        NotifyButtons = Color3.fromRGB(163, 162, 165) -- Gray
+			    },
+
 		White = {
 			Main = Color3.fromRGB(225, 225, 225),
 			Shadow = Color3.fromRGB(255, 255, 255),
